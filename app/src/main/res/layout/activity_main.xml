@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/myyellow"
+        android:padding="16sp"
+        android:text="Numbers"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/familymembers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/mygreen"
+        android:padding="16sp"
+        android:text="Family Members"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numbers" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/mypurple"
+        android:padding="16sp"
+        android:text="Colors"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familymembers" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/mycyan"
+        android:padding="16sp"
+        android:text="Phrases"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colors" />
+</androidx.constraintlayout.widget.ConstraintLayout>
